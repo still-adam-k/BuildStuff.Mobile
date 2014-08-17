@@ -10,5 +10,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Speaker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpeakerList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpeakerViewCell.cs" />
   </ItemGroup>
 </Project>

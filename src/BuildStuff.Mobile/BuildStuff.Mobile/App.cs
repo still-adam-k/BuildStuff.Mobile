@@ -7,18 +7,25 @@ using Xamarin.Forms;
 
 namespace BuildStuff.Mobile
 {
-	public class App
-	{
-		public static Page GetMainPage()
-		{
-			return new ContentPage
-			{
-				Content = new Label {
-					Text = "Hello, Forms !",
-					VerticalOptions = LayoutOptions.CenterAndExpand,
-					HorizontalOptions = LayoutOptions.CenterAndExpand,
-				},
-			};
-		}
-	}
+    public class App
+    {
+        public static Page GetMainPage()
+        {
+            var listView = new ListView
+            {
+                RowHeight = 60
+            };
+            listView.ItemsSource = new SpeakerList().ToList();
+            listView.ItemTemplate = new DataTemplate( typeof (SpeakerViewCell));
+
+            return new ContentPage
+            {
+                Content = new StackLayout
+                {
+                    VerticalOptions = LayoutOptions.FillAndExpand,
+                    Children = { listView }
+                }
+            };
+        }
+    }
 }

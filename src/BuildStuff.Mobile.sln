@@ -13,6 +13,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BuildStuff.Mobile", "BuildS
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BuildStuff.Mobile\BuildStuff.Mobile\BuildStuff.Mobile.projitems*{023a1953-22e3-4457-afce-ec461bbd660a}*SharedItemsImports = 4
+		BuildStuff.Mobile\BuildStuff.Mobile\BuildStuff.Mobile.projitems*{c4feb5bf-a564-491f-a157-352f0aaecdfc}*SharedItemsImports = 4
 		BuildStuff.Mobile\BuildStuff.Mobile\BuildStuff.Mobile.projitems*{d052b7cf-e737-40f7-9fd3-6aca6953f606}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
