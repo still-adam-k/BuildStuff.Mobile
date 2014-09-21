@@ -10,7 +10,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>BuildStuff14.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>BuildStuff14.iOS</AssemblyName>
+    <AssemblyName>BuildStuff14iOS</AssemblyName>
     <NuGetPackageImportStamp>b9a3241b</NuGetPackageImportStamp>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
